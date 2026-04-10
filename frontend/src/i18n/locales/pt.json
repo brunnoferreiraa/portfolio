@@ -10,17 +10,18 @@
       "pageTitle": "Bruno Ferreira {'|'} Desenvolvedor Front-end React",
       "greeting": "Olá!",
       "personName": "Bruno Ferreira",
-      "secondaryName": "Desenvolvedor Front-end React",
+      "secondaryName": "Desenvolvedor Front-End React",
       "title": "Desenvolvedor Front-end React",
       "subtitle": "Apaixonado por tecnologia",
-      "itsMe": "Sou eu",
+      "itsMe": "Me chamo",
+      "itsMeSecondary": "Sou",
       "getInTouch": "Entre em contato"
     },
     "about": {
       "name": "Sobre",
       "pageTitle": "Sobre mim {'|'} Bruno Ferreira",
       "heading": "Sobre mim",
-      "description": "Meu nome é Bruno Ferreira e trabalho como Desenvolvedor Front-end React. Desenvolvo interfaces modernas, responsivas e centradas no usuário, sempre com foco em código limpo e excelente experiência de uso. Sou apaixonado por tecnologia e estou em constante evolução para criar soluções digitais de impacto."
+      "description": "Me chamo Bruno Ferreira. Sou desenvolvedor Front-end React. Desenvolvo interfaces modernas, responsivas e centradas no usuário, sempre com foco em código limpo e excelente experiência de uso. Sou apaixonado por tecnologia e estou em constante evolução para criar soluções digitais de impacto."
     },
     "skills": {
       "name": "Habilidades",

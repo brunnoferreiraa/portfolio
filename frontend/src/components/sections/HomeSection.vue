@@ -20,6 +20,7 @@ const greetingRef = ref(null)
 const alternatingTextRef = ref(null)
 const showCursor = ref(true)
 const showContent = ref(false)
+const currentPrefix = ref('name')
 let cursorInterval = null
 let animationController = null
 
@@ -78,6 +79,7 @@ const alternateText = async (signal) => {
   }
 
   while (!signal?.aborted) {
+    currentPrefix.value = 'name'
     await typeWriter(alternatingTextRef.value, data.value.name, TYPE_SPEED, signal)
     if (signal?.aborted) break
 
@@ -90,6 +92,7 @@ const alternateText = async (signal) => {
     await eraseText(alternatingTextRef.value, ERASE_SPEED, signal)
     if (signal?.aborted) break
 
+    currentPrefix.value = 'secondary'
     await typeWriter(alternatingTextRef.value, data.value.secondaryName, TYPE_SPEED, signal)
     if (signal?.aborted) break
 
@@ -149,7 +152,9 @@ onUnmounted(() => {
       <div class="space-y-6 transition-opacity duration-1000"
         :class="{ 'opacity-0': !showContent, 'opacity-100': showContent }">
         <h2 class="text-3xl md:text-4xl font-bold">
-          <span class="text-cyan-600 dark:text-cyan-300">{{ t('sections.home.itsMe') }}</span>&nbsp;
+          <span class="text-cyan-600 dark:text-cyan-300">
+            {{ currentPrefix === 'secondary' ? t('sections.home.itsMeSecondary', t('sections.home.itsMe')) : t('sections.home.itsMe') }}
+          </span>&nbsp;
           <span ref="alternatingTextRef" class="text-amber-600 dark:text-amber-300"></span>
         </h2>
         <p class="text-xl md:text-2xl">{{ data.title }}</p>
