@@ -13,6 +13,12 @@
       "translationKey": "sections.about"
     },
     {
+      "key": "skills",
+      "path": "skills",
+      "component": "SkillsSection",
+      "translationKey": "sections.skills"
+    },
+    {
       "key": "projects",
       "path": "projects",
       "component": "ProjectsSection",

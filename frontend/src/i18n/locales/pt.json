@@ -22,12 +22,25 @@
       "heading": "Sobre mim",
       "description": "Meu nome é Bruno Ferreira e trabalho como Desenvolvedor Front-end React. Desenvolvo interfaces modernas, responsivas e centradas no usuário, sempre com foco em código limpo e excelente experiência de uso. Sou apaixonado por tecnologia e estou em constante evolução para criar soluções digitais de impacto."
     },
+    "skills": {
+      "name": "Habilidades",
+      "pageTitle": "Habilidades {'|'} Bruno Ferreira",
+      "heading": "Minhas habilidades",
+      "description": "Principais tecnologias que utilizo no desenvolvimento front-end.",
+      "items": {
+        "react": "Construção de interfaces modernas com componentes reutilizáveis.",
+        "vue": "Criação de aplicações rápidas e reativas com o ecossistema Vue.",
+        "angular": "Desenvolvimento de aplicações estruturadas e escaláveis para projetos robustos.",
+        "node": "Desenvolvimento de APIs e serviços backend com Node.js.",
+        "python": "Automação, scripts e soluções backend com Python."
+      }
+    },
     "licensesAndCerts": {
       "name": "Licenças e Certificações",
       "pageTitle": "Licenças e Certificações {'|'} Bruno Ferreira",
       "heading": "Licenças e Certificações",
-      "additionalHeading": "Certificações Adicionais",
-      "verifyButton": "Verificar Certificação",
+      "additionalHeading": "Certificações adicionais",
+      "verifyButton": "Verificar certificação",
       "featured": {
         "aws_cfl": {
           "title": "AWS Cloud Practitioner",
@@ -75,8 +88,8 @@
     "projects": {
       "name": "Projetos",
       "pageTitle": "Projetos {'|'} Bruno Ferreira",
-      "heading": "Meus Projetos",
-      "viewButton": "Ver Projeto",
+      "heading": "Meus projetos",
+      "viewButton": "Ver projeto",
       "items": {
         "project1": {
           "title": "Projeto 1",

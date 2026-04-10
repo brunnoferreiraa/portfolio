@@ -111,7 +111,20 @@
                                                          "github":  "GitHub",
                                                          "instagram":  "Instagram"
                                                      }
-                                 }
+                                 },
+                     "skills":  {
+                                    "name":  "Skills",
+                                    "pageTitle":  "Skills {\u0027|\u0027} Bruno Ferreira",
+                                    "heading":  "Mes Skills",
+                                    "description":  "Principales technologies que j utilise en developpement front-end.",
+                                    "items":  {
+                                                  "react":  "Creation d interfaces modernes avec composants reutilisables.",
+                                                  "vue":  "Developpement d applications rapides et reactives avec l ecosysteme Vue.",
+                                                  "angular":  "Construction d applications structurees et evolutives pour des projets complexes.",
+                                                  "node":  "Developpement d API et services backend avec Node.js.",
+                                                  "python":  "Automatisation, scripts et solutions backend avec Python."
+                                              }
+                                }
                  },
     "settings":  {
                      "theme":  {

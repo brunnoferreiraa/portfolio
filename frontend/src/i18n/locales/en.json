@@ -1,158 +1,171 @@
-{
-  "aria": {
-    "selectTheme": "Select {theme} theme",
-    "selectColor": "Select {color} accent color",
-    "navigateToSection": "Navigate to {section}"
-  },
-  "sections": {
-    "home": {
-      "name": "Home",
-      "pageTitle": "Bruno Ferreira {'|'} Front-end React Developer",
-      "greeting": "Hey there!",
-      "personName": "Bruno Ferreira",
-      "secondaryName": "Front-end React Developer",
-      "title": "Front-end React Developer",
-      "subtitle": "Passionate about technology",
-      "itsMe": "It's me",
-      "getInTouch": "Get in Touch"
-    },
-    "about": {
-      "name": "About",
-      "pageTitle": "About Me {'|'} Bruno Ferreira",
-      "heading": "About Me",
-      "description": "My name is Bruno Ferreira, and I work as a Front-end React Developer. I build modern, responsive, and user-focused interfaces, always aiming to deliver clean code and great user experiences. I am passionate about technology and constantly improving my skills to create impactful digital solutions."
-    },
-    "licensesAndCerts": {
-      "name": "Licenses and Certifications",
-      "pageTitle": "Licenses and Certifications {'|'} Bruno Ferreira",
-      "heading": "Licenses and Certifications",
-      "additionalHeading": "Additional Certifications",
-      "verifyButton": "Verify Certification",
-      "featured": {
-        "aws_cfl": {
-          "title": "AWS Cloud Practitioner",
-          "alt": "AWS Cloud Practitioner Certification Badge",
-          "details": "Validates overall understanding of the AWS Cloud"
-        },
-        "aws_da": {
-          "title": "AWS Certified Developer - Associate",
-          "alt": "AWS Developer Associate Certification Badge",
-          "details": "Design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives"
-        },
-        "radio": {
-          "title": "Amateur Wireless Station license",
-          "alt": "Amateur Radio License Badge",
-          "details": "Licensed amateur radio operator with expertise in wireless communications"
-        }
-      },
-      "other": {
-        "react": {
-          "title": "React Developer",
-          "alt": "React Developer Certification"
-        },
-        "vue": {
-          "title": "Vue.js Developer",
-          "alt": "Vue.js Developer Certification"
-        },
-        "typescript": {
-          "title": "TypeScript",
-          "alt": "TypeScript Certification"
-        },
-        "nodejs": {
-          "title": "Node.js",
-          "alt": "Node.js Developer Certification"
-        },
-        "mongodb": {
-          "title": "MongoDB",
-          "alt": "MongoDB Certification"
-        },
-        "docker": {
-          "title": "Docker",
-          "alt": "Docker Certification"
-        }
-      }
-    },
-    "projects": {
-      "name": "Projects",
-      "pageTitle": "Projects {'|'} Bruno Ferreira",
-      "heading": "My Projects",
-      "viewButton": "View Project",
-      "items": {
-        "project1": {
-          "title": "Project 1",
-          "description": "A Vue.js web application for task management."
-        },
-        "project2": {
-          "title": "Project 2",
-          "description": "An e-commerce platform built with Vue and Node.js."
-        },
-        "project3": {
-          "title": "Project 3",
-          "description": "A responsive portfolio website using Vue and Tailwind CSS."
-        },
-        "project4": {
-          "title": "Project 4",
-          "description": "A real-time chat application with Vue and Firebase."
-        },
-        "project5": {
-          "title": "Project 5",
-          "description": "Another real-time chat application with Vue and Firebase."
-        }
-      }
-    },
-    "contact": {
-      "name": "Contact",
-      "pageTitle": "Contact Me {'|'} Bruno Ferreira",
-      "heading": "Contact Me",
-      "description": "Feel free to reach out to me via email or connect on social media!",
-      "emailButton": "Send me an email",
-      "socialNames": {
-        "linkedin": "LinkedIn",
-        "github": "GitHub",
-        "instagram": "Instagram"
-      }
-    }
-  },
-  "settings": {
-    "theme": {
-      "label": "Theme",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System ({theme})"
-    },
-    "accentColor": {
-      "label": "Accent Color",
-      "emerald": "Emerald",
-      "green": "Green",
-      "lime": "Lime",
-      "red": "Red",
-      "orange": "Orange",
-      "amber": "Amber",
-      "yellow": "Yellow",
-      "teal": "Teal",
-      "cyan": "Cyan",
-      "sky": "Sky",
-      "blue": "Blue",
-      "indigo": "Indigo",
-      "violet": "Violet",
-      "purple": "Purple",
-      "fuchsia": "Fuchsia",
-      "pink": "Pink",
-      "rose": "Rose",
-      "slate": "Slate",
-      "gray": "Gray",
-      "zinc": "Zinc",
-      "neutral": "Neutral",
-      "stone": "Stone"
-    },
-    "showScrollbar": {
-      "label": "Show Scrollbar"
-    },
-    "language": {
-      "label": "Language"
-    },
-    "customize": {
-      "label": "Customize your experience"
-    }
-  }
+﻿{
+    "aria":  {
+                 "selectTheme":  "Select {theme} theme",
+                 "selectColor":  "Select {color} accent color",
+                 "navigateToSection":  "Navigate to {section}"
+             },
+    "sections":  {
+                     "home":  {
+                                  "name":  "Home",
+                                  "pageTitle":  "Bruno Ferreira {\u0027|\u0027} Front-end React Developer",
+                                  "greeting":  "Hey there!",
+                                  "personName":  "Bruno Ferreira",
+                                  "secondaryName":  "Front-end React Developer",
+                                  "title":  "Front-end React Developer",
+                                  "subtitle":  "Passionate about technology",
+                                  "itsMe":  "It\u0027s me",
+                                  "getInTouch":  "Get in Touch"
+                              },
+                     "about":  {
+                                   "name":  "About",
+                                   "pageTitle":  "About Me {\u0027|\u0027} Bruno Ferreira",
+                                   "heading":  "About Me",
+                                   "description":  "My name is Bruno Ferreira, and I work as a Front-end React Developer. I build modern, responsive, and user-focused interfaces, always aiming to deliver clean code and great user experiences. I am passionate about technology and constantly improving my skills to create impactful digital solutions."
+                               },
+                     "skills":  {
+                                    "name":  "Skills",
+                                    "pageTitle":  "Skills {\u0027|\u0027} Bruno Ferreira",
+                                    "heading":  "My Skills",
+                                    "description":  "Main technologies I use in front-end development.",
+                                    "items":  {
+                                                  "react":  "Building modern interfaces with reusable components.",
+                                                  "vue":  "Creating fast and reactive applications with Vue ecosystem.",
+                                                  "angular":  "Developing structured and scalable enterprise-ready apps.",
+                                                  "node":  "Building APIs and backend services with Node.js.",
+                                                  "python":  "Automation, scripting, and backend solutions with Python."
+                                              }
+                                },
+                     "licensesAndCerts":  {
+                                              "name":  "Licenses and Certifications",
+                                              "pageTitle":  "Licenses and Certifications {\u0027|\u0027} Bruno Ferreira",
+                                              "heading":  "Licenses and Certifications",
+                                              "additionalHeading":  "Additional Certifications",
+                                              "verifyButton":  "Verify Certification",
+                                              "featured":  {
+                                                               "aws_cfl":  {
+                                                                               "title":  "AWS Cloud Practitioner",
+                                                                               "alt":  "AWS Cloud Practitioner Certification Badge",
+                                                                               "details":  "Validates overall understanding of the AWS Cloud"
+                                                                           },
+                                                               "aws_da":  {
+                                                                              "title":  "AWS Certified Developer - Associate",
+                                                                              "alt":  "AWS Developer Associate Certification Badge",
+                                                                              "details":  "Design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives"
+                                                                          },
+                                                               "radio":  {
+                                                                             "title":  "Amateur Wireless Station license",
+                                                                             "alt":  "Amateur Radio License Badge",
+                                                                             "details":  "Licensed amateur radio operator with expertise in wireless communications"
+                                                                         }
+                                                           },
+                                              "other":  {
+                                                            "react":  {
+                                                                          "title":  "React Developer",
+                                                                          "alt":  "React Developer Certification"
+                                                                      },
+                                                            "vue":  {
+                                                                        "title":  "Vue.js Developer",
+                                                                        "alt":  "Vue.js Developer Certification"
+                                                                    },
+                                                            "typescript":  {
+                                                                               "title":  "TypeScript",
+                                                                               "alt":  "TypeScript Certification"
+                                                                           },
+                                                            "nodejs":  {
+                                                                           "title":  "Node.js",
+                                                                           "alt":  "Node.js Developer Certification"
+                                                                       },
+                                                            "mongodb":  {
+                                                                            "title":  "MongoDB",
+                                                                            "alt":  "MongoDB Certification"
+                                                                        },
+                                                            "docker":  {
+                                                                           "title":  "Docker",
+                                                                           "alt":  "Docker Certification"
+                                                                       }
+                                                        }
+                                          },
+                     "projects":  {
+                                      "name":  "Projects",
+                                      "pageTitle":  "Projects {\u0027|\u0027} Bruno Ferreira",
+                                      "heading":  "My Projects",
+                                      "viewButton":  "View Project",
+                                      "items":  {
+                                                    "project1":  {
+                                                                     "title":  "Project 1",
+                                                                     "description":  "A Vue.js web application for task management."
+                                                                 },
+                                                    "project2":  {
+                                                                     "title":  "Project 2",
+                                                                     "description":  "An e-commerce platform built with Vue and Node.js."
+                                                                 },
+                                                    "project3":  {
+                                                                     "title":  "Project 3",
+                                                                     "description":  "A responsive portfolio website using Vue and Tailwind CSS."
+                                                                 },
+                                                    "project4":  {
+                                                                     "title":  "Project 4",
+                                                                     "description":  "A real-time chat application with Vue and Firebase."
+                                                                 },
+                                                    "project5":  {
+                                                                     "title":  "Project 5",
+                                                                     "description":  "Another real-time chat application with Vue and Firebase."
+                                                                 }
+                                                }
+                                  },
+                     "contact":  {
+                                     "name":  "Contact",
+                                     "pageTitle":  "Contact Me {\u0027|\u0027} Bruno Ferreira",
+                                     "heading":  "Contact Me",
+                                     "description":  "Feel free to reach out to me via email or connect on social media!",
+                                     "emailButton":  "Send me an email",
+                                     "socialNames":  {
+                                                         "linkedin":  "LinkedIn",
+                                                         "github":  "GitHub",
+                                                         "instagram":  "Instagram"
+                                                     }
+                                 }
+                 },
+    "settings":  {
+                     "theme":  {
+                                   "label":  "Theme",
+                                   "light":  "Light",
+                                   "dark":  "Dark",
+                                   "system":  "System ({theme})"
+                               },
+                     "accentColor":  {
+                                         "label":  "Accent Color",
+                                         "emerald":  "Emerald",
+                                         "green":  "Green",
+                                         "lime":  "Lime",
+                                         "red":  "Red",
+                                         "orange":  "Orange",
+                                         "amber":  "Amber",
+                                         "yellow":  "Yellow",
+                                         "teal":  "Teal",
+                                         "cyan":  "Cyan",
+                                         "sky":  "Sky",
+                                         "blue":  "Blue",
+                                         "indigo":  "Indigo",
+                                         "violet":  "Violet",
+                                         "purple":  "Purple",
+                                         "fuchsia":  "Fuchsia",
+                                         "pink":  "Pink",
+                                         "rose":  "Rose",
+                                         "slate":  "Slate",
+                                         "gray":  "Gray",
+                                         "zinc":  "Zinc",
+                                         "neutral":  "Neutral",
+                                         "stone":  "Stone"
+                                     },
+                     "showScrollbar":  {
+                                           "label":  "Show Scrollbar"
+                                       },
+                     "language":  {
+                                      "label":  "Language"
+                                  },
+                     "customize":  {
+                                       "label":  "Customize your experience"
+                                   }
+                 }
 }
