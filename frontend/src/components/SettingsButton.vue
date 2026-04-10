@@ -30,7 +30,7 @@ onUnmounted(() => {
 <template>
   <div class="relative">
     <button
-      class="theme-customizer-button fixed bottom-4 right-4 z-50 p-3 rounded-full shadow-lg bg-white dark:bg-gray-800 text-primary-500 hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900"
+      class="theme-customizer-button fixed bottom-4 right-4 z-50 p-3 rounded-full shadow-lg bg-amber-50 dark:bg-slate-800 text-primary-600 hover:bg-amber-100 dark:hover:bg-slate-700 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-slate-900"
       @click="toggle" aria-haspopup="true" :aria-expanded="isOpen">
       <Palette class="w-6 h-6" />
     </button>
@@ -39,7 +39,7 @@ onUnmounted(() => {
         enter-to-class="transform scale-100 opacity-100" leave-active-class="transition duration-150 ease-in"
         leave-from-class="transform scale-100 opacity-100" leave-to-class="transform scale-95 opacity-0">
         <div v-if="isOpen"
-          class="theme-customizer-popover fixed bottom-20 right-4 w-72 rounded-2xl shadow-xl bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5 focus:outline-none z-50 overflow-hidden"
+          class="theme-customizer-popover fixed bottom-20 right-4 w-72 rounded-2xl shadow-xl bg-amber-50 dark:bg-slate-800 ring-1 ring-amber-200 dark:ring-slate-700 focus:outline-none z-50 overflow-hidden"
           role="menu" aria-orientation="vertical" aria-labelledby="theme-menu">
           <div class="p-4 space-y-6" role="none">
             <div>
@@ -55,7 +55,7 @@ onUnmounted(() => {
               <LanguageSwitcher />
             </div>
           </div>
-          <div class="px-4 py-3 bg-gray-50 dark:bg-gray-700/50 text-xs text-gray-500 dark:text-gray-400">
+          <div class="px-4 py-3 bg-amber-100/70 dark:bg-slate-700/50 text-xs text-slate-600 dark:text-slate-300">
             {{ $t('settings.customize.label') }}
           </div>
         </div>

@@ -205,7 +205,7 @@ onBeforeUnmount(() => {
 <template>
   <!-- Scroll container with snap behavior -->
   <div ref="container"
-    class="w-full h-screen overflow-y-scroll snap-y snap-mandatory bg-slate-100 dark:bg-gray-900 transition-colors duration-700"
+    class="w-full h-screen overflow-y-scroll snap-y snap-mandatory bg-amber-50 dark:bg-slate-950 transition-colors duration-700"
     :class="showScrollbar ? 'scrollbar-visible' : 'scrollbar-hidden'"
     style="min-height: 100vh; height: 100vh; overscroll-behavior: none;">
     <!-- Starry background component -->

@@ -13,12 +13,6 @@
       "translationKey": "sections.about"
     },
     {
-      "key": "licensesAndCerts",
-      "path": "licenses-and-certs",
-      "component": "LicensesCertifications",
-      "translationKey": "sections.licensesAndCerts"
-    },
-    {
       "key": "projects",
       "path": "projects",
       "component": "ProjectsSection",

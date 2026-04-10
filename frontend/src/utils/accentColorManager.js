@@ -27,7 +27,7 @@ export const validColors = [
   'stone',
 ]
 
-const DEFAULT_COLOR = 'yellow'
+const DEFAULT_COLOR = 'cyan'
 
 function isValidColor(color) {
   return validColors.includes(color) && colors[color] && colors[color][500]

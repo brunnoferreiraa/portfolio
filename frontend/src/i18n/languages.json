@@ -1,12 +1,17 @@
-[
-  {
-    "code": "en",
-    "iso": "en-US",
-    "name": "English"
-  },
-  {
-    "code": "fr",
-    "iso": "fr-FR",
-    "name": "Français"
-  }
+﻿[
+    {
+        "code":  "en",
+        "iso":  "en-US",
+        "name":  "English"
+    },
+    {
+        "code":  "fr",
+        "iso":  "fr-FR",
+        "name":  "FranÃ§ais"
+    },
+    {
+        "code":  "pt",
+        "iso":  "pt-BR",
+        "name":  "Português (Brasil)"
+    }
 ]

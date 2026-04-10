@@ -1,0 +1,158 @@
+{
+  "aria": {
+    "selectTheme": "Selecionar tema {theme}",
+    "selectColor": "Selecionar cor de destaque {color}",
+    "navigateToSection": "Navegar para {section}"
+  },
+  "sections": {
+    "home": {
+      "name": "Início",
+      "pageTitle": "Bruno Ferreira {'|'} Desenvolvedor Front-end React",
+      "greeting": "Olá!",
+      "personName": "Bruno Ferreira",
+      "secondaryName": "Desenvolvedor Front-end React",
+      "title": "Desenvolvedor Front-end React",
+      "subtitle": "Apaixonado por tecnologia",
+      "itsMe": "Sou eu",
+      "getInTouch": "Entre em contato"
+    },
+    "about": {
+      "name": "Sobre",
+      "pageTitle": "Sobre mim {'|'} Bruno Ferreira",
+      "heading": "Sobre mim",
+      "description": "Meu nome é Bruno Ferreira e trabalho como Desenvolvedor Front-end React. Desenvolvo interfaces modernas, responsivas e centradas no usuário, sempre com foco em código limpo e excelente experiência de uso. Sou apaixonado por tecnologia e estou em constante evolução para criar soluções digitais de impacto."
+    },
+    "licensesAndCerts": {
+      "name": "Licenças e Certificações",
+      "pageTitle": "Licenças e Certificações {'|'} Bruno Ferreira",
+      "heading": "Licenças e Certificações",
+      "additionalHeading": "Certificações Adicionais",
+      "verifyButton": "Verificar Certificação",
+      "featured": {
+        "aws_cfl": {
+          "title": "AWS Cloud Practitioner",
+          "alt": "Badge de certificação AWS Cloud Practitioner",
+          "details": "Valida o entendimento geral sobre a AWS Cloud"
+        },
+        "aws_da": {
+          "title": "AWS Certified Developer - Associate",
+          "alt": "Badge de certificação AWS Developer Associate",
+          "details": "Projetar, desenvolver e gerenciar soluções robustas, seguras, escaláveis, altamente disponíveis e dinâmicas para atender objetivos de negócio"
+        },
+        "radio": {
+          "title": "Licença de Estação de Rádio Amador",
+          "alt": "Badge da licença de rádio amador",
+          "details": "Operador de rádio amador licenciado com expertise em comunicações sem fio"
+        }
+      },
+      "other": {
+        "react": {
+          "title": "Desenvolvedor React",
+          "alt": "Certificação de Desenvolvedor React"
+        },
+        "vue": {
+          "title": "Desenvolvedor Vue.js",
+          "alt": "Certificação de Desenvolvedor Vue.js"
+        },
+        "typescript": {
+          "title": "TypeScript",
+          "alt": "Certificação TypeScript"
+        },
+        "nodejs": {
+          "title": "Node.js",
+          "alt": "Certificação de Desenvolvedor Node.js"
+        },
+        "mongodb": {
+          "title": "MongoDB",
+          "alt": "Certificação MongoDB"
+        },
+        "docker": {
+          "title": "Docker",
+          "alt": "Certificação Docker"
+        }
+      }
+    },
+    "projects": {
+      "name": "Projetos",
+      "pageTitle": "Projetos {'|'} Bruno Ferreira",
+      "heading": "Meus Projetos",
+      "viewButton": "Ver Projeto",
+      "items": {
+        "project1": {
+          "title": "Projeto 1",
+          "description": "Uma aplicação web em Vue.js para gestão de tarefas."
+        },
+        "project2": {
+          "title": "Projeto 2",
+          "description": "Uma plataforma de e-commerce construída com Vue e Node.js."
+        },
+        "project3": {
+          "title": "Projeto 3",
+          "description": "Um site de portfólio responsivo usando Vue e Tailwind CSS."
+        },
+        "project4": {
+          "title": "Projeto 4",
+          "description": "Uma aplicação de chat em tempo real com Vue e Firebase."
+        },
+        "project5": {
+          "title": "Projeto 5",
+          "description": "Outra aplicação de chat em tempo real com Vue e Firebase."
+        }
+      }
+    },
+    "contact": {
+      "name": "Contato",
+      "pageTitle": "Contato {'|'} Bruno Ferreira",
+      "heading": "Entre em contato",
+      "description": "Fique à vontade para me chamar por e-mail ou se conectar comigo nas redes sociais!",
+      "emailButton": "Enviar e-mail",
+      "socialNames": {
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "instagram": "Instagram"
+      }
+    }
+  },
+  "settings": {
+    "theme": {
+      "label": "Tema",
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema ({theme})"
+    },
+    "accentColor": {
+      "label": "Cor de destaque",
+      "emerald": "Esmeralda",
+      "green": "Verde",
+      "lime": "Lima",
+      "red": "Vermelho",
+      "orange": "Laranja",
+      "amber": "Âmbar",
+      "yellow": "Amarelo",
+      "teal": "Turquesa",
+      "cyan": "Ciano",
+      "sky": "Céu",
+      "blue": "Azul",
+      "indigo": "Índigo",
+      "violet": "Violeta",
+      "purple": "Roxo",
+      "fuchsia": "Fúcsia",
+      "pink": "Rosa",
+      "rose": "Rosé",
+      "slate": "Ardósia",
+      "gray": "Cinza",
+      "zinc": "Zinco",
+      "neutral": "Neutro",
+      "stone": "Pedra"
+    },
+    "showScrollbar": {
+      "label": "Mostrar barra de rolagem"
+    },
+    "language": {
+      "label": "Idioma"
+    },
+    "customize": {
+      "label": "Personalize sua experiência"
+    }
+  }
+}
